@@ -3,6 +3,7 @@ body
    background-color:grey;
    text-align:center;
    font-family:arial;
+   width:100%;
 }
 button{
     margin-left:40px;
@@ -35,7 +36,7 @@ ul {
 }
 h1
 {
-    color:#1B1716;
+    color:#000000;
 }
 li
 {
@@ -48,8 +49,16 @@ li
     list-style-type:none;
     margin: 10px 0;
     text-align:start;   
-
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
+}
+div {
+    text-align: center;
+    background-color:white;
+    width: 500px;
+    padding: 40px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px gray;
 }
